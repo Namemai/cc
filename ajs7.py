@@ -24,40 +24,40 @@ import pyimgflip
              #﹦﹦﹦﹦﹦﹦﹦ɢᴜɴᴀᴋᴀɴ ᴅᴇɴɢᴀɴ ʙɪᴊᴀᴋ﹦﹦﹦﹦﹦﹦﹦#
 #======sɪʟᴀʜᴋᴀɴ ᴋᴇᴍʙᴀɴɢɪɴ ʟᴀɢɪ sᴄʀɪᴩᴛ ɴʏᴀ======#
 
-cl = LineClient(authToken="YOUR TOKEN")
+cl = LineClient("sud55718@zzrgg.com","mai06555mai")
 cl.log("Auth Token : " + str(cl.authToken))
 channel1 = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
-cl.log("Channel Access Token : " + str(channel1.channelAccessToken))
+cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='TOKEN ASSIST 1')
+ki = LineClient("mnn84815@bcaoo.com","mai06555mai")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='TOKEN ASSIST 2')
+kk = LineClient("uwc45303@zzrgg.com","mai06555mai")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='TOKEN ASSIST 3')
+kc = LineClient("ckz89175@bcaoo.com","mai06555mai")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-kb = LineClient(authToken='TOKEN ASSIST 4')
+kb = LineClient("pzx60129@bcaoo.com","mai06555mai")
 kb.log("Auth Token : " + str(kb.authToken))
 channel4 = LineChannel(kb,kb.server.CHANNEL_ID['LINE_TIMELINE'])
 kb.log("Channel Access Token : " + str(channel4.channelAccessToken))
 
-ke = LineClient(authToken='TOKEN ASSIST 5')
+ke = LineClient("faz26918@zzrgg.com","mai06555mai")
 ke.log("Auth Token : " + str(ke.authToken))
-channel3 = LineChannel(ke,ke.server.CHANNEL_ID['LINE_TIMELINE'])
-ke.log("Channel Access Token : " + str(channel3.channelAccessToken))
+channel5 = LineChannel(ke,ke.server.CHANNEL_ID['LINE_TIMELINE'])
+ke.log("Channel Access Token : " + str(channel5.channelAccessToken))
 
-sw = LineClient(authToken='TOKEN GHOST')
+sw = LineClient("ovj15178@zzrgg.com","mai06555mai")
 sw.log("Auth Token : " + str(sw.authToken))
-channel4 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
-sw.log("Channel Access Token : " + str(channel4.channelAccessToken))
+channel6 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
+sw.log("Channel Access Token : " + str(channel6.channelAccessToken))
 print("\n﹦﹦﹦﹦﹦﹦﹦﹦ᴩʀᴀsᴛ ʜᴜɴᴛᴇʀ ᴋɪʟʟᴇʀ﹦﹦﹦﹦﹦﹦﹦﹦\n")
 
 poll = LinePoll(cl)
@@ -74,7 +74,7 @@ Cmid = kc.getProfile().mid
 Dmid = kb.getProfile().mid
 Emid = ke.getProfile().mid
 Zmid = sw.getProfile().mid
-KAC = [cl,ki,kk,kc,kb,ke]
+KAC = [ki,kk,kc,kb,ke]
 ABC = [ki,kk,kc,kb,ke]
 Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Zmid]
 Saints = admin + staff
@@ -199,12 +199,12 @@ wait = {
             "statusMessage": ""
             },
     "unsend":True,
-    "mention":"ʜᴇʜʜ..!! ɴɢɪɴᴛɪᴩ ʙᴀᴇ ʟᴜ ᴋᴀ, ᴀɪᴍ ᴄɪᴩᴏᴋ ɴɪʜ \nᴩᴀᴋᴇ ᴋᴜʟᴋᴀs 2 ᴩɪɴᴛᴜ😂",
-    "Respontag":"ɢᴀᴋ ᴜsᴀʜ ᴛᴀɢ sᴇɢᴀʟᴀ ᴋᴀ, \nᴋᴀʟᴀᴜ ᴋᴀɴɢᴇɴ ᴩᴍ ᴍᴇsʟᴀʜ ᴀᴊᴀ😜",
-    "welcome":"sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ \nᴅɪ ʀᴏᴏᴍ ᴋᴀᴍɪ\nsᴇᴍᴏɢᴀ ᴅᴀᴩᴀᴛ ᴛɪᴋᴜɴɢᴀɴ 😚🙏",
-    "leave":"ᴊᴀɴɢᴀɴ ᴩᴇʀɢɪ, ɴᴀɴᴛɪ ᴀɪᴍ ɢᴀᴋ ᴀᴅᴀ ʏɢ ʙᴀᴩᴇʀɪɴ ʟɢɪ😭",
-    "comment":"ᴀᴜᴛᴏ ʟɪᴋᴇ ʙʏ.ᴩʀᴀsᴛ ʜᴜɴᴛᴇʀ",
-    "message":"ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ʏᴀ....\nsᴜᴅᴀʜ ᴀᴅᴅ sᴀʏᴀ.\nsᴇᴍᴏɢᴀ ᴋɪᴛᴀ ʙɪsᴀ ᴍᴇɴᴊᴀʟɪɴ sɪʟᴀᴛᴜʀᴀʜᴍɪ ᴅᴇɴɢᴀɴ ʙᴀɪᴋ.\n\nʙʏ. ᴩʀᴀsᴛ_ʜᴜɴᴛᴇʀ17",
+    "mention":"ʜᴇʜʜ..!!",
+    "Respontag":"ɢᴀᴋ",
+    "welcome":"sᴇʟᴀᴍᴀᴛ",
+    "leave":"ᴊᴀɴɢᴀɴ",
+    "comment":"ᴀᴜᴛᴏ ʟɪᴋᴇ",
+    "message":"ᴛᴇʀɪᴍᴀ",
 }
 read = {
     "readPoint":{},
@@ -866,7 +866,7 @@ def bot(op):
                                         kc.cancelGroupInvitation(op.param1,[_mid])
                                 except:
                                     try:
-                                        group = kc.getGroup(op.param1)
+                                        group = kb.getGroup(op.param1)
                                         gMembMids = [contact.mid for contact in group.invitee]
                                         for _mid in gMembMids:
                                             kb.cancelGroupInvitation(op.param1,[_mid])      
@@ -948,8 +948,6 @@ def bot(op):
             if op.param3 in admin:
                 if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                     wait["blacklist"][op.param2] = True
-                    random.choice(ABC).findAndAddContactsByMid("u042b866c381573d1e399d16b51ca2d8c")
-                    random.choice(ABC).inviteIntoGroup(op.param1,["u042b866c381573d1e399d16b51ca2d8c"])
                     random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
                 else:
                 	pass
@@ -958,8 +956,6 @@ def bot(op):
             if op.param3 in staff:
                 if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                     wait["blacklist"][op.param2] = True
-                    random.choice(ABC).findAndAddContactsByMid("u8a6049ae83629033334864657a4cb506")
-                    random.choice(ABC).inviteIntoGroup(op.param1,["u8a6049ae83629033334864657a4cb506"])
                     random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
                 else:
                 	pass
@@ -976,7 +972,6 @@ def bot(op):
                         sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                         sw.kickoutFromGroup(op.param1,[op.param2])
                         wait["blacklist"][op.param2] = True
-                        sw.sendMessage(op.param1,"ʜᴇʜ ᴋᴀᴍᴜ ᴍᴀɪɴ ᴋɪᴄᴋ ᴏʀᴀɴɢ ᴄɪᴩᴏᴋ ɴɪʜ..!!!")
                         sw.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                         sw.leaveGroup(op.param1)
                         X = random.choice(KAC).getGroup(op.param1)
@@ -995,9 +990,7 @@ def bot(op):
                         random.choice(ABC).updateGroup(G)
                         Ticket = random.choice(ABC).reissueGroupTicket(op.param1)
                         sw.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        sw.kickoutFromGroup(op.param1,[op.param2])
                         sw.inviteIntoGroup(op.param1,[mid,Amid,Bmid,Cmid,Dmid,Emid])
-                        sw.sendMessage(op.param1,"ʜᴇʜ ᴋᴀᴍᴜ ᴍᴀɪɴ ᴋɪᴄᴋ ᴏʀᴀɴɢ ᴄɪᴩᴏᴋ ɴɪʜ..!!!")
                         sw.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                         sw.leaveGroup(op.param1)
                         X = cl.getGroup(op.param1)
@@ -2988,7 +2981,7 @@ def bot(op):
                                Setmain["keyCommand"] = ""
                                cl.sendMessage(msg.to, "「 Resetkey 」\nSetkey mu telah direset")
 
-                        elif cmd == "restart":
+                        elif cmd == "รี":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                sendMention(msg.to, sender, "「 Restarting 」\nUser ", "\nTunggu sebentar...")
@@ -3377,7 +3370,7 @@ def bot(op):
                                     sw.leaveGroup(i)
                                     cl.sendMessage(msg.to,"Berhasil keluar di grup " +str(ginfo.name))
                                     
-                        elif cmd == "berteman":
+                        elif cmd == "addbot":
                           if msg._from in admin:
                             try:
                                 cl.findAndAddContactsByMid(Amid)
@@ -3753,7 +3746,7 @@ def bot(op):
                                        except:
                                            pass                              
 
-                        elif cmd == "jepit":
+                        elif cmd == "iv":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -3764,7 +3757,6 @@ def bot(op):
                                     kc.acceptGroupInvitation(msg.to)
                                     kb.acceptGroupInvitation(msg.to)
                                     ke.acceptGroupInvitation(msg.to)
-                                    cl.sendMessage(msg.to,"ɢʀᴏᴜᴩ"+str(ginfo.name)+"ᴀᴍᴀɴ ᴅᴀʀɪ ʜᴀᴍᴀ")
                                 except:
                                     pass
                                     
@@ -3806,7 +3798,6 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
-                                cl.cancelGroupInvitation(msg.to, [Zmid])
                                 ki.leaveGroup(msg.to)                               
                                 kk.leaveGroup(msg.to)                                
                                 kc.leaveGroup(msg.to)                                
@@ -3923,8 +3914,7 @@ def bot(op):
                             if msg._from in admin:
                                start = time.time()
                                time.sleep(0.0001)
-                               elapsed_time = time.time() - start
-                               cl.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))                             
+                               elapsed_time = time.time() - start                            
                                ki.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))                               
                                kk.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))                               
                                kc.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))                               
@@ -4311,7 +4301,7 @@ def bot(op):
                                 wait["contact"] = False
                                 cl.sendMessage(msg.to,"ᴅᴇᴛᴇᴋsɪ ᴄᴏɴᴛᴀᴄᴛ ᴅɪɴᴏɴᴀᴋᴛɪғᴋᴀɴ")
 
-                        elif cmd == "curut" or text.lower() == 'blc':
+                        elif cmd == "curut" or text.lower() == 'bc':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               if wait["blacklist"] == {}:
@@ -4327,13 +4317,12 @@ def bot(op):
                                         ma = cl.getContact(i)
                                         cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
-                        elif cmd == "clearban" or text.lower() == 'ceban':
+                        elif cmd == "clearban" or text.lower() == 'cb':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               wait["blacklist"] = {}
                               ragets = cl.getContacts(wait["blacklist"])
                               mc = "「%i」User Blacklist" % len(ragets)
-                              cl.sendMessage(msg.to,"ᴋᴀʟɪᴀɴ sᴜᴅᴀʜ ᴋᴀᴍɪ ᴀᴍᴩᴜɴɪ " +mc)
                               ki.sendMessage(msg.to,"ᴋᴀʟɪᴀɴ sᴜᴅᴀʜ ᴋᴀᴍɪ ᴀᴍᴩᴜɴɪ " +mc)
                               kk.sendMessage(msg.to,"ᴋᴀʟɪᴀɴ sᴜᴅᴀʜ ᴋᴀᴍɪ ᴀᴍᴩᴜɴɪ " +mc)
                               kc.sendMessage(msg.to,"ᴋᴀʟɪᴀɴ sᴜᴅᴀʜ ᴋᴀᴍɪ ᴀᴍᴩᴜɴɪ " +mc)
